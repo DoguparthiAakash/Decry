@@ -1,4 +1,4 @@
-# Shamir Secret Sharing: Constant Term Reconstruction
+# Constant Term Reconstruction of an constant c in polynomial equation from data encrypted in SSS(Shamirs Secret Sharing) Algorithm
 
 This project demonstrates how to **reconstruct the constant term `c`** from a polynomial encrypted using **Shamir's Secret Sharing (SSS)**.
 
@@ -133,5 +133,5 @@ Output Example
 Constant term (c) = -6290016743746469796
 Digit length = 20
 
-Main instruction, need to change the file name the ShamirSecret.java
+Main instruction, need to change the file name the ShamirSecret.java to get the result for the specified encoded file.
  Line 20:  String var1 = "file_name.json";
