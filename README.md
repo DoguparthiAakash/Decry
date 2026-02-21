@@ -111,8 +111,11 @@ Decry/
 1. Open terminal in the project root.  
 2. Compile the program:
 
-**Windows:**
+**Usage**
 ```bash
+
+Windows:
+
 javac -cp ".;lib/gson-2.10.1.jar" src/ShamirSecret.java
 
 Mac/Linux:
