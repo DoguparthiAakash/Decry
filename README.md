@@ -114,6 +114,8 @@ Decry/
 **Usage**
 ```bash
 
+Compile the program:
+
 Windows:
 
 javac -cp ".;lib/gson-2.10.1.jar" src/ShamirSecret.java
