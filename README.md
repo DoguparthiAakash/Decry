@@ -86,15 +86,15 @@ f(0) = 4*3 + 7*(-3) + 12*1 = 12 - 21 + 12 = 3
 
 ## Project Structure
 
-
-shamir-secret/
+Decry/
 │
 ├── src/
-│ └── ShamirSecret.java # Java program to decode JSON and compute the constant
-├── test_case_2.json # Encrypted JSON shares (example)
+│   └── ShamirSecret.java
+│
+├── test_case_2.json
+│
 └── lib/
-└── gson-2.10.1.jar # Gson library for JSON parsing
-
+    └── gson-2.10.1.jar
 
 ---
 
