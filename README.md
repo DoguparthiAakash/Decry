@@ -89,12 +89,12 @@ f(0) = 4*3 + 7*(-3) + 12*1 = 12 - 21 + 12 = 3
 Decry/
 │
 ├── src/
-│   └── ShamirSecret.java
+│   └── ShamirSecret.java  // Source Code
 │
-├── test_case_2.json
+├── test_case_2.json //test case
 │
 └── lib/
-    └── gson-2.10.1.jar
+    └── gson-2.10.1.jar jar library for json file
 
 ---
 
