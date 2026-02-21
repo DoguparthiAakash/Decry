@@ -133,5 +133,5 @@ Output Example
 Constant term (c) = -6290016743746469796
 Digit length = 20
 
-Main instruction, need to change the file name it 
-  String var1 = "file_name.json";
+Main instruction, need to change the file name the ShamirSecret.java
+ Line 20:  String var1 = "file_name.json";
