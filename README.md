@@ -132,3 +132,6 @@ java -cp ".:lib/gson-2.10.1.jar:src" ShamirSecret
 Output Example
 Constant term (c) = -6290016743746469796
 Digit length = 20
+
+Main instruction, need to change the file name it 
+  String var1 = "file_name.json";
