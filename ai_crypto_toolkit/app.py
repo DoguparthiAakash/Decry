@@ -48,14 +48,21 @@ elif page == "Classical Cipher Solver":
     st.write("Break simple classical ciphers (like Caesar Shift) using NLP and frequency analysis.")
     
     solver = ClassicalCipherSolver()
-    ciphertext = st.text_area("Enter ciphertext:")
+    
+    uploaded_file = st.file_uploader("Upload a text file to decrypt:", type=["txt", "json", "csv"])
+    if uploaded_file is not None:
+        ciphertext = uploaded_file.read().decode("utf-8")
+        st.text_area("File Contents:", value=ciphertext, height=100, disabled=True)
+    else:
+        ciphertext = st.text_area("Or enter ciphertext manually:")
+        
     if st.button("Solve"):
         if ciphertext:
             plaintext, method = solver.solve_caesar(ciphertext)
             st.success(f"**Decrypted Text:**\n\n{plaintext}")
             st.info(f"**Method Detected:** {method}")
         else:
-            st.error("Please enter ciphertext.")
+            st.error("Please enter ciphertext or upload a file.")
 
 elif page == "Anomaly Detector":
     st.header("Anomaly Detector")
