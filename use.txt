@@ -1,0 +1,12 @@
+python3 /home/aakash/Downloads/Decry/ai_crypto_toolkit/scripts/generate_data.py
+
+to generate train data
+
+python3 /home/aakash/Downloads/Decry/ai_crypto_toolkit/scripts/train_models.py
+
+to train model
+
+streamlit run /home/aakash/Downloads/Decry/ai_crypto_toolkit/app.py
+
+
+to start the application
